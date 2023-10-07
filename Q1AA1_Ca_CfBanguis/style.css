@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@700&family=Rubik:wght@700&family=Young+Serif&display=swap');*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+div.navbar div{
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid #0f0736;
+    background-color: #0b0338;
+    padding: 2px;
+    height: 70px;
+}
+#home{
+    background-color: #000000;
+}
+#home a{
+    color: white;
+}
+#gall{
+    background-color: #030801;
+    margin-right: 20px;
+}
+#gall a{
+    color: white;
+}
+.links {
+    border: 1px solid black;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .4s;
+    padding: 5px;
+    border-radius: 10px;
+}
+.links:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 6px;
+}
+#linksgroup{
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+}
+.links a {
+    text-decoration: none;
+}
+#logo{
+    margin-left: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.footer{
+    background-color: #0b0338;
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+#copyright{
+    float: left;
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: white;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    font-size: smaller;
+}
+#socials img{
+    width: 30px;
+}
+#ig, #twt, #fb{
+    float: right;
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 10px;
+}
+#ig{
+    margin-right: 25px;
+}
+#fb:hover, #ig:hover, #twt:hover{
+    opacity: 1;
+    transition: .4s;
+}
+.banner{
+    background-image: url('pics/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 600px;
+}
+.bannertext{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.bannertext h1{
+    font-size: 3.5em;
+    font-family: 'Rubik', sans-serif;
+    color: #07063f;
+    text-shadow: -2px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.bannertext h1 span{
+    font-family: 'Young Serif', serif;
+    color: #ffffff;
+    text-shadow: -2px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.bannertext p{
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+    text-shadow: -1px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+.bannertext a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-shadow: -1px 1px 0 #07063f,1px 1px 0 #07063f,1px -1px 0 #07063f,-1px -1px 0 #07063f;
+    background-color: #07063f;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+}
+#bannerlink:hover{
+    transition: .4s;
+    font-size: large;
+    padding: 6px;
+}
+body{
+    background-color: #ffffff;
+}
+.gallery{
+    margin: 10px;
+    margin-top: 65px;
+    text-align: center;
+}
+.gallery h1{
+    position: absolute;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 0, 0);
+    top: 13%;
+    left: 3%;
+}
+.pics img{
+    margin: 4px;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 11%;
+}
+
+
